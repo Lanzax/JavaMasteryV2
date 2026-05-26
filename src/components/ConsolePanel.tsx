@@ -1,0 +1,1 @@
+export function ConsolePanel({ output, status }: { output: string; status: string }) { return <div className="rounded-xl border border-border bg-black p-3 font-mono text-sm"><p className="mb-2 text-white">Terminal</p><p className={status === 'success' ? 'text-green-400' : status === 'error' ? 'text-red-400' : 'text-yellow-300'}>{output || 'Nessun output.'}</p></div>; }

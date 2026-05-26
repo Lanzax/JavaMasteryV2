@@ -1,0 +1,1 @@
+export function ProgressBadge({ completed }: { completed: boolean }) { return <span className={`rounded-full px-3 py-1 text-xs ${completed ? 'bg-green-600/30 text-green-300' : 'bg-slate-700 text-slate-300'}`}>{completed ? 'Completato' : 'In corso'}</span>; }

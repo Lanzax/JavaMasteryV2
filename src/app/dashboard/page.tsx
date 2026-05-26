@@ -1,0 +1,2 @@
+import { Card } from '@/components/ui';
+export default function Dashboard() { return <div className="grid gap-4 md:grid-cols-3"><Card><p className="text-sm">Progresso Java</p><p className="text-2xl font-bold">8%</p></Card><Card><p className="text-sm">XP</p><p className="text-2xl font-bold">120 XP</p></Card><Card><p className="text-sm">Ultimi esercizi</p><ul className="text-sm text-slate-300"><li>Hello World</li><li>Somma numeri</li></ul></Card></div>; }
